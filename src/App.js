@@ -1,6 +1,7 @@
 import React from 'react';
 import CardList from './CardList'
 import SeachBox from './SearchBox';
+import './App.css'
 
 import { robots } from './robots'
 class App extends React.Component {
