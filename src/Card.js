@@ -5,7 +5,6 @@ const Card = (props) => {
     console.log("HHHHHHHHHHHHIIIIIIIIIIIIII", props);
     return (
         <div className=' tc bg-light-green br3 dib pa3 ma2 grow bw2 shadow-5'>
-            <h1>ID {props.id}</h1>
             <img src={`https://robohash.org/${props.id}?100x100`} alt='cool stuff'/>
 
         <div>
