@@ -7,7 +7,7 @@ const CardList = ({robots}) => {
 
     })
     return (
-        <div>
+        <div style={{overflowY: 'scroll', border: '1px solid black', height: '500px'}}>
         {cardComponent}
         </div>
         
